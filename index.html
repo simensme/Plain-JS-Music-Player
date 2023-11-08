@@ -18,7 +18,21 @@
         </div>
         <h2 id="title">Fade Out</h2>
         <h3 id="artist">Philanthrope</h3>
-        <audio src="music/Philanthrope - Fade out.mp3" controls></audio>
+        <audio src="music/Philanthrope - Fade out.mp3"></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">1:59</span>
+            </div>
+        </div>
+        <!-- Audio Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous Song"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next Song"></i>
+        </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
