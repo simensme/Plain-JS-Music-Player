@@ -55,7 +55,7 @@ const pauseSong = () => {
 
 // Play or pause event listener
 playBtn.addEventListener('click', () => {
-    isPlaying ? pauseSong() : playSong()
+    isPlaying ? pauseSong() ß: playSong()
 });
 
 // Function to add songs to DOM
